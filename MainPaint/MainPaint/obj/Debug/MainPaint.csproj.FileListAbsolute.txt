@@ -1,0 +1,12 @@
+C:\Users\moni4\source\repos\MainPaint\MainPaint\bin\Debug\MainPaint.exe.config
+C:\Users\moni4\source\repos\MainPaint\MainPaint\bin\Debug\MainPaint.exe
+C:\Users\moni4\source\repos\MainPaint\MainPaint\bin\Debug\MainPaint.pdb
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.csprojAssemblyReference.cache
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.Form1.resources
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.Properties.Resources.resources
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.csproj.GenerateResource.cache
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.csproj.CoreCompileInputs.cache
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.exe
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.pdb
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.FormA2.resources
+C:\Users\moni4\source\repos\MainPaint\MainPaint\obj\Debug\MainPaint.FormA3.resources

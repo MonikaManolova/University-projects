@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E24B84B-38E8-43F8-AF17-84D74D8F6A2F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MainPaint</RootNamespace>
+    <AssemblyName>MainPaint</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA2.Designer.cs">
+      <DependentUpon>FormA2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA3.Designer.cs">
+      <DependentUpon>FormA3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA2.resx">
+      <DependentUpon>FormA2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA3.resx">
+      <DependentUpon>FormA3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facebook-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\github-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Google-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17545371_1331277383617278_1702758039550406051_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17545371_1331277383617278_1702758039550406051_o1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17545371_1331277383617278_1702758039550406051_o2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editing-Rectangle-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editing-Triangle-Stroked-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-Circle-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editing-Line-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pencil-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brush-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Color-Meter-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin-black-full-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Very-Basic-Copy-Filled-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4039487347_c836f444c2_b-2-ab744.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grey-780x400.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

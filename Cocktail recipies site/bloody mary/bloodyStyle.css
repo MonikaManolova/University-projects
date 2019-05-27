@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#nav {
+ text-align: center;
+ background: rgba(51,28,51,1);
+background: -moz-linear-gradient(left, rgba(51,28,51,1) 0%, rgba(84,79,84,1) 9%, rgba(102,102,102,1) 17%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 61%, rgba(84,79,84,1) 75%, rgba(121,128,154,1) 85%, rgba(28,28,28,1) 99%, rgba(18,18,18,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51,28,51,1)), color-stop(9%, rgba(84,79,84,1)), color-stop(17%, rgba(102,102,102,1)), color-stop(35%, rgba(0,0,0,1)), color-stop(61%, rgba(0,0,0,1)), color-stop(75%, rgba(84,79,84,1)), color-stop(85%, rgba(121,128,154,1)), color-stop(99%, rgba(28,28,28,1)), color-stop(100%, rgba(18,18,18,1)));
+background: -webkit-linear-gradient(left, rgba(51,28,51,1) 0%, rgba(84,79,84,1) 9%, rgba(102,102,102,1) 17%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 61%, rgba(84,79,84,1) 75%, rgba(121,128,154,1) 85%, rgba(28,28,28,1) 99%, rgba(18,18,18,1) 100%);
+background: -o-linear-gradient(left, rgba(51,28,51,1) 0%, rgba(84,79,84,1) 9%, rgba(102,102,102,1) 17%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 61%, rgba(84,79,84,1) 75%, rgba(121,128,154,1) 85%, rgba(28,28,28,1) 99%, rgba(18,18,18,1) 100%);
+background: -ms-linear-gradient(left, rgba(51,28,51,1) 0%, rgba(84,79,84,1) 9%, rgba(102,102,102,1) 17%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 61%, rgba(84,79,84,1) 75%, rgba(121,128,154,1) 85%, rgba(28,28,28,1) 99%, rgba(18,18,18,1) 100%);
+background: linear-gradient(to right, rgba(51,28,51,1) 0%, rgba(84,79,84,1) 9%, rgba(102,102,102,1) 17%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 61%, rgba(84,79,84,1) 75%, rgba(121,128,154,1) 85%, rgba(28,28,28,1) 99%, rgba(18,18,18,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331c33', endColorstr='#121212', GradientType=1 );
+ padding-top: 10px;
+ padding-bottom: 10px; 
+ position: fixed;
+ top: 0;
+ width: 100%; 
+}
+#nav li {
+  list-style: none; 
+  display: inline-block; 
+}
+#nav .link {
+  color: #fff; 
+  display: block; font-family:arial; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  font-size: 20px;
+  margin: 6px 15px;
+  padding: 12px 10px 12px;
+  padding-top: 0px;
+  text-decoration: none; 
+}
+#image{
+width: 210px;
+height: 70px;
+}
+:root {
+  --mainColor: rgb(32, 110, 234, 0.5);
+}
+.link {
+  background:
+     linear-gradient(
+       to top,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+  color: #000;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.link:hover {
+  background:
+     linear-gradient(
+       to top,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
+}
+main{
+  padding-top: 180px;
+  background: rgba(31,31,31,1);
+background: -moz-linear-gradient(left, rgba(31,31,31,1) 0%, rgba(89,89,89,1) 10%, rgba(191,189,191,1) 24%, rgba(204,198,204,1) 30%, rgba(214,214,214,1) 35%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 60%, rgba(184,180,184,1) 76%, rgba(79,79,79,1) 91%, rgba(19,19,19,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(31,31,31,1)), color-stop(10%, rgba(89,89,89,1)), color-stop(24%, rgba(191,189,191,1)), color-stop(30%, rgba(204,198,204,1)), color-stop(35%, rgba(214,214,214,1)), color-stop(49%, rgba(255,255,255,1)), color-stop(60%, rgba(255,255,255,1)), color-stop(76%, rgba(184,180,184,1)), color-stop(91%, rgba(79,79,79,1)), color-stop(100%, rgba(19,19,19,1)));
+background: -webkit-linear-gradient(left, rgba(31,31,31,1) 0%, rgba(89,89,89,1) 10%, rgba(191,189,191,1) 24%, rgba(204,198,204,1) 30%, rgba(214,214,214,1) 35%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 60%, rgba(184,180,184,1) 76%, rgba(79,79,79,1) 91%, rgba(19,19,19,1) 100%);
+background: -o-linear-gradient(left, rgba(31,31,31,1) 0%, rgba(89,89,89,1) 10%, rgba(191,189,191,1) 24%, rgba(204,198,204,1) 30%, rgba(214,214,214,1) 35%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 60%, rgba(184,180,184,1) 76%, rgba(79,79,79,1) 91%, rgba(19,19,19,1) 100%);
+background: -ms-linear-gradient(left, rgba(31,31,31,1) 0%, rgba(89,89,89,1) 10%, rgba(191,189,191,1) 24%, rgba(204,198,204,1) 30%, rgba(214,214,214,1) 35%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 60%, rgba(184,180,184,1) 76%, rgba(79,79,79,1) 91%, rgba(19,19,19,1) 100%);
+background: linear-gradient(to right, rgba(31,31,31,1) 0%, rgba(89,89,89,1) 10%, rgba(191,189,191,1) 24%, rgba(204,198,204,1) 30%, rgba(214,214,214,1) 35%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 60%, rgba(184,180,184,1) 76%, rgba(79,79,79,1) 91%, rgba(19,19,19,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#131313', GradientType=1 );
+
+}
+#main-footer{
+  background: #000;
+  font-family: Cambria;
+  padding: 30px;
+}
+#main-footer p{
+  color: #fff;
+  padding: 30px;
+}
+#gif{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background: url(bloodyMary.gif);
+  background-repeat: no-repeat;
+-webkit-box-shadow: 0px 0px 26px 18px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 26px 18px rgba(0,0,0,1);
+box-shadow: 0px 0px 26px 18px rgba(0,0,0,1);
+  height: 350px;
+  background-size: cover;
+}
+h1{
+  margin-right: 35px;
+  padding-top: 35px;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+#gif-text{
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-size: 21px;
+  max-height: 300px;
+}
+#info{
+  background-image: url(fire-roasted-bloody-mary.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 60%;
+  min-height: 250px;
+  color: #fff;
+}
+#how-to-make{
+  margin-top: 30px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 20px;
+  line-height: 35px;
+}
+#recipe{
+  float: left;
+  margin-top: 30px;
+  margin-left: 27px;
+  width: 35%;
+  font-size: 20px;
+  line-height: 35px;
+}
+#info:after{
+  clear: both;
+  display: block;
+  content: '';
+}
+video{
+  width: 100%;
+}
+#arrow{
+  width: 50%;
+  padding: 0 20px;
+}
+#pos-video{
+  float: left;
+  width: 60%;
+}
+#pos-arrow{
+  float: left;
+  width: 20%;
+}
+#pos-arrow:first-child{
+  text-align: right;
+}
+#video-section{
+  margin-top: 20px;
+}
+#video-section:after{
+  clear: both;
+  display: block;
+  content: '';
+}
+.images {
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.images-inner {
+  width: 500%;
+  transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+.image-slide {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  float: left;
+  transition: all 0.5s ease-out;
+}
+#first-pic{
+  background-image: url(Smoky_Bloody_Mary-720x400.jpg);
+}
+#second-pic{
+   background-image: url(Bloody-Mary.jpg);
+}
+#third-pic{
+  background-image: url(hangar-1-green-bloody-mary-recipe-h_medium.jpg);
+}
+@keyframes slide {
+  0%, 25.203252032520325% { margin-left: 0; }
+  33.333333333333336%, 58.53658536585366% { margin-left: -100%; }
+  66.66666666666667%, 91.869918699187%  { margin-left: -200%; }
+}
+.st-slider > #play1:checked ~ .images .images-inner {
+  animation: slide 12300ms infinite;  
+}
+#pineapple-text{
+  margin-right: 35px;
+  padding-left: 55px;
+  padding-top: 35px;
+  color: #000;
+  text-align: right;
+  font-size: 23px;
+  font-style: italic;
+}
+#first-word{
+  font-size: 35px;
+  font-family: 'Marck Script', cursive;
+  font-weight: bold;;
+  color: rgb(255, 255, 255, 0.8);
+  letter-spacing: 3px;
+}
+#slide-picture{
+  margin: 20px 0;
+}
